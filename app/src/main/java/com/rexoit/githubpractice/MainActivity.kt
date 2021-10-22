@@ -14,10 +14,16 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onCreate: This is Master" + ebrahim())
 
         Log.d(TAG, "onCreate: I am Ebrahim")
+
+        master()
     }
 
     private fun ebrahim(){
         Log.d(TAG, "ebrahim: fun Ebrahim")
+    }
+
+    private fun master(){
+        Log.d(TAG, "master: I am from master fun")
     }
 
 }
