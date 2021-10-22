@@ -14,8 +14,9 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onCreate: This is Master" + ebrahim())
 
         Log.d(TAG, "onCreate: I am Ebrahim")
-
         master()
+
+        Log.d(TAG, "onCreate: Ebrahim 8 done")
     }
 
     private fun ebrahim(){
