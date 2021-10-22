@@ -11,5 +11,7 @@ class MasterActivity1 : AppCompatActivity() {
         setContentView(R.layout.activity_master1)
 
         Log.d(TAG, "onCreate: ebrahim 1st commit in masterActivity1")
+
+        //TODO EBRAHIM
     }
 }
