@@ -4,12 +4,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 
-private const val TAG = "masterActivity1"
-class MasterActivity1 : AppCompatActivity() {
+private const val TAG = "ebrahimActivity1"
+class EbrahimActivity1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_master1)
+        setContentView(R.layout.activity_ebrahim1)
 
-        Log.d(TAG, "onCreate: ebrahim 1st commit in masterActivity1")
+        Log.d(TAG, "onCreate: Ebrahim Activity 1")
+
+        //TODO MASTER
+
     }
 }

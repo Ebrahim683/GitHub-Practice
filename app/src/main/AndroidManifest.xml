@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitHubPractice">
         <activity
+            android:name=".EbrahimActivity1"
+            android:exported="false" />
+        <activity
             android:name=".MasterActivity1"
             android:exported="false" />
         <activity
