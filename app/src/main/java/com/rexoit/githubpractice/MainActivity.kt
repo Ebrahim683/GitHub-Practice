@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Log.d(TAG, "onCreate: This is Ebrahim")
-        Log.d(TAG, "onCreate: You are Master")
+        Log.d(TAG, "onCreate: You are Ebrahim")
+        Log.d(TAG, "onCreate: This is Master")
     }
 }
