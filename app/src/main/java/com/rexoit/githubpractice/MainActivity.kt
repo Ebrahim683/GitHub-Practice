@@ -11,6 +11,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Log.d(TAG, "onCreate: You are Ebrahim")
-        Log.d(TAG, "onCreate: This is Master")
+        Log.d(TAG, "onCreate: This is Master" + ebrahim())
+
+        Log.d(TAG, "onCreate: I am Ebrahim")
     }
+
+    private fun ebrahim(){
+        Log.d(TAG, "ebrahim: fun Ebrahim")
+    }
+
 }
