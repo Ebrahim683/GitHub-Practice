@@ -6,11 +6,13 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:layout_height="match_parent"
-    tools:context=".master.MasterActivity2">
+    tools:context=".master_and_ebrahim.MasterActivity2">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageID"
         android:src="@drawable/ic_launcher_background"
+        android:alpha="0.0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

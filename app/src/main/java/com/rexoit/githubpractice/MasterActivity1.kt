@@ -13,5 +13,6 @@ class MasterActivity1 : AppCompatActivity() {
         Log.d(TAG, "onCreate: ebrahim 1st commit in masterActivity1")
 
         //TODO EBRAHIM
+        println("Ebrahim todo done")
     }
 }
